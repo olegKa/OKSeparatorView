@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'OKSeparatorView_Example' do
+  pod 'OKSeparatorView', :path => '../'
+
+  target 'OKSeparatorView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
